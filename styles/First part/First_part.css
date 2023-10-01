@@ -1,4 +1,5 @@
 .Firstpart {
     background-color: var(--background);
     text-align: center;
+    height: 100vh;
 }
