@@ -1,0 +1,54 @@
+.Waves {
+    position: fixed; 
+    bottom: 0; 
+    left: 0;
+    width: 100%;
+    height: 40px;
+    overflow: hidden;
+}
+
+.wave {
+    position: absolute;
+    width: 100%;
+    height: 100%;
+    background-color: transparent;
+}
+
+.wave1 {
+    animation: moveWave1 20s linear infinite;
+}
+
+.wave2 {
+    animation: moveWave2 25s linear infinite reverse;
+}
+
+.wave3 {
+    animation: moveWave3 30s linear infinite;
+}
+
+@keyframes moveWave1 {
+    0% {
+        transform: translateX(0);
+    }
+    100% {
+        transform: translateX(-100%);
+    }
+}
+
+@keyframes moveWave2 {
+    0% {
+        transform: translateX(0);
+    }
+    100% {
+        transform: translateX(-100%);
+    }
+}
+
+@keyframes moveWave3 {
+    0% {
+        transform: translateX(0);
+    }
+    100% {
+        transform: translateX(-100%);
+    }
+}

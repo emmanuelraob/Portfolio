@@ -1,0 +1,56 @@
+.List {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+    width: 700px;
+    margin-top: 100px;
+}
+
+.option {
+    position: relative;
+}
+
+.icon {
+    display: none;
+}
+
+.option:hover .dark {
+    display: none;
+}
+.option:hover .light {
+    width: 40px;
+    transform: scale(1.75);
+    display: flex;
+}
+
+.option .dark {
+    width: 40px;
+    display: flex;
+}
+
+/*text style*/
+.option p {
+    font-size: 26px;
+    font-weight: 400;
+    color: var(--main-color-b);
+    margin-top: 10px;
+}
+
+.option:hover p {
+    font-size: 26px;
+    font-weight: 700;
+    color: var(--main-color-b);
+}
+
+.option .arrow{
+    margin: 0;
+    padding: 0;
+    width: 250px;
+}
+.option:hover .arrow{
+    margin: 0;
+    padding: 0;
+    width: 250px;
+}
+
