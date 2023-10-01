@@ -3,52 +3,57 @@
     bottom: 0; 
     left: 0;
     width: 100%;
-    height: 40px;
+    height: 50px;
     overflow: hidden;
 }
 
 .wave {
     position: absolute;
-    width: 100%;
+    width:200%; /* Ajustado para permitir la repetición de la imagen */
     height: 100%;
     background-color: transparent;
+    background-repeat: repeat-x; /* Asegura que la imagen se repita horizontalmente */
 }
 
 .wave1 {
-    animation: moveWave1 20s linear infinite;
+    background-image: url('/images/elements/waves/wave_l.svg');
+    animation: moveWave1 800s linear infinite;
 }
 
 .wave2 {
-    animation: moveWave2 25s linear infinite reverse;
+    background-image: url('/images/elements/waves/wave_d.svg');
+    animation: moveWave2 1000s linear infinite reverse;
 }
 
 .wave3 {
-    animation: moveWave3 30s linear infinite;
+    background-image: url('/images/elements/waves/wave_dd.svg');
+    animation: moveWave3 1000s linear infinite;
 }
 
 @keyframes moveWave1 {
     0% {
-        transform: translateX(0);
+        background-position: 0% 0;
     }
     100% {
-        transform: translateX(-100%);
+        background-position: -10000% 0;
     }
 }
 
 @keyframes moveWave2 {
     0% {
-        transform: translateX(0);
+        background-position: 0% 0;
     }
     100% {
-        transform: translateX(-100%);
+        background-position: -10000% 0;
     }
 }
 
 @keyframes moveWave3 {
     0% {
-        transform: translateX(0);
+        background-position: 0% 0;
     }
     100% {
-        transform: translateX(-100%);
+        background-position: -10000% 0;
     }
 }
+

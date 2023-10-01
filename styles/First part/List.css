@@ -19,13 +19,13 @@
     display: none;
 }
 .option:hover .light {
-    width: 40px;
+    width: 55px;
     transform: scale(1.75);
     display: flex;
 }
 
 .option .dark {
-    width: 40px;
+    width: 55px;
     display: flex;
 }
 

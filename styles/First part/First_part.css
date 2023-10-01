@@ -1,8 +1,4 @@
-
-body {
-    font-family: 'Roboto', sans-serif;
+.Firstpart {
+    background-color: var(--background);
     text-align: center;
-    padding: 20px;
-    margin: 0;
-    padding: 0;
 }

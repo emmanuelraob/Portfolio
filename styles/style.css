@@ -10,6 +10,17 @@
     padding: 0;
     box-sizing: border-box;
     font-family: var(--font);
-    color: var(--background);
-    background-color: var(--background);
+}
+
+body{
+    text-align: center;
+    font-family: var(--font);
+}
+
+.Visible{
+    display: flex;
+}
+
+.Invisible{
+    display: none;
 }
