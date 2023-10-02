@@ -16,17 +16,17 @@
 
 .wave1 {
     background-image: url('/images/elements/waves/wave_l.svg');
-    animation: moveWave1 800s linear infinite;
+    animation: moveWave1 1000s linear infinite;
 }
 
 .wave2 {
     background-image: url('/images/elements/waves/wave_d.svg');
-    animation: moveWave2 1000s linear infinite reverse;
+    animation: moveWave2 1500s linear infinite reverse;
 }
 
 .wave3 {
     background-image: url('/images/elements/waves/wave_dd.svg');
-    animation: moveWave3 1000s linear infinite;
+    animation: moveWave3 1500s linear infinite;
 }
 
 @keyframes moveWave1 {
