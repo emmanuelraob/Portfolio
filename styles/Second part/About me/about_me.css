@@ -1,6 +1,39 @@
-.Second_part{
-    color: var(--main-color-b);
-    background-color: black;
-    height: 500px;
-    width: 100%;
+.About_me{
+    display: flex;
+    flex-direction: row;
+    margin-left: calc(250px + 10vh);
+    margin-right: calc(10vh-88px);
+    justify-content: center;
 }
+
+.About_me img{
+    height: 100%;
+    margin: 200px 0;
+    
+}
+
+.About_me .Presentation{
+    color: var(--background);
+    margin: 250px 0;
+    text-align: left;
+    height: 100%;
+}
+
+
+.Presentation h2{
+    font-size: 45px;
+    font-weight: 700;
+    margin-top: 140px;
+    margin-bottom: 40px;
+}
+
+.Presentation p{
+    font-size: 25px;
+    font-weight: 400;
+    line-height: 1.36;
+}
+.Presentation b{
+    font-size: 25px;
+    font-weight: 700;
+}
+

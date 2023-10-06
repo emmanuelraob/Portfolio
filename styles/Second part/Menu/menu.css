@@ -1,0 +1,30 @@
+.menu{
+    background-color: blue;
+    position: absolute;
+    right: 0;
+    bottom: 0;
+    position: sticky;
+    width: 260px;
+    height: 100vh;
+}
+
+.menu ul{
+    margin: 20vh 0;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    height: 60vh;
+}
+
+.menu li{
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    display: flex; 
+}
+
+.menu a {
+    color: var(--background); 
+    text-decoration: none;
+    font-size: 25px;
+}
