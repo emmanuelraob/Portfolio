@@ -18,3 +18,7 @@ body{
     text-align: center;
     font-family: var(--font);
 }
+
+html {
+    scroll-behavior: smooth;
+}

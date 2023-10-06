@@ -19,10 +19,12 @@
     <link rel="stylesheet" href="/styles/Second part/Menu/menu.css">
     <link rel="stylesheet" href="/styles/Second part/About me/about_me.css">
     <link rel="stylesheet" href="/styles/Second part/Experience/experience.css">
-
+    <link rel="stylesheet" href="/styles/Second part/Skills/Skills.css">
+    <link rel="stylesheet" href="/styles/Second part/Projects/Projects.css">
+    <link rel="stylesheet" href="/styles/Second part/Contact/contact.css">
 </head>
 <body>
-    <div class="First_part ">
+    <div class="First_part " id="First_part">
         <div class="Centered">
             <div class="Presentation">
                 <img src="images/logo/logo.png" alt="Logo" class="logo">
@@ -43,15 +45,11 @@
                     </a>
                 </div>
                 <div class="option">
-                    <a href="https://www.linkedin.com/in/emmanuel-ram%C3%ADrez-design/?locale=en_US" target="_blank">
-                        <img src="/images/icons/dark/linkedin_d.png" alt="Icon 3" class="icon dark">
-                        <img src="/images/icons/light/linkedin_l.png" alt="Icon 3" class="icon light">
+                    <a href="#About_me">
+                        <p id="portfolioButton">continue to portfolio</p>
+                        <img src="/images/icons/dark/Arrow.png" class="arrow">
                     </a>
-                </div>
-                <div class="option" >
-                    <p id="portfolioButton">continue to portfolio</p>
-                    <img src="/images/icons/dark/Arrow.png" class="arrow">
-                </div>
+                </div>                
             </div>
         </div>
         <div class="Waves">
@@ -60,9 +58,9 @@
             <div class="wave wave1"></div>
         </div>
     </div>
-    <div class="Second_part">   
-        <div class="About_me">
-            <div class="Presentation">
+    <div class="Second_part" >   
+        <div class="About_me" id="About_me">
+            <div class="Presentation section">
                 <h2>Hi, I'm Emmanuel</h2>
                 <p>I’m an industrial <b>designer</b> engineer and</p>
                 <p><b>developer</b> based in Costa Rica.</p>
@@ -70,30 +68,36 @@
             </div>
             <img src="/images/elements/personal photo/profile_photo.png" alt="">
         </div>
-        <div class="Experience">
+        <div class="Experience section" id="Experience">
+            experience
         </div>
-        <div class="Skills">
-            a
+        <div class="Skills section" id="Skills">
+            skills
         </div>
-        <div class="Project">
-            a
+        <div class="Projects section" id="Projects">
+            projects
         </div>
-        <div class="Contact">
-            a
+        <div class="Contact section" id="Contact">
+            contact
         </div>
-        <nav class="menu">
+        <div class="menu">
             <ul>
-                <li><a href="#about-me">About me</a></li>
-                <li><a href="#experience">Experience</a></li>
-                <li><a href="#skills">Skills</a></li>
-                <li><a href="#projects">Projects</a></li>
-                <li><a href="#contact">Contact</a></li>
+                <li><a href="#About_me" data-section="About_me" id="link-About_me">About me</a></li>
+                <li><a href="#Experience" data-section="Experience" id="link-Experience">Experience</a></li>
+                <li><a href="#Skills" data-section="Skills" id="link-Skills">Skills</a></li>
+                <li><a href="#Projects" data-section="Projects" id="link-Projects">Projects</a></li>
+                <li><a href="#Contact" data-section="Contact" id="link-Contact">Contact</a></li>
             </ul>
-        </nav>  
+            <div class="line">
+                <div class="circle"></div>
+            </div>
+        </div>  
     </div>
 </body>
 <footer>
     
 </footer>
 <script src="/scripts/First part/wave_vel.js"></script>
+<script src="/scripts/Menu/menu.js"></script>
+
 </html>
