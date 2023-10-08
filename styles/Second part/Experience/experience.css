@@ -1,3 +1,48 @@
 .Experience{
     margin-left: 260px;
+    position: relative;
+    display: flex;
+    flex-direction: column;
+    height: 800px;
+}
+
+.Experience h2{
+    color: var(--background);
+    font-size: 45px;
+    font-weight: 700;
+    margin-bottom: 90px;
+}
+
+.Experience .container{
+    margin: 0 auto;
+    display: flex;
+    flex-direction: column;
+    gap: 25px;
+}
+
+.Experience .experience-item{
+    width: 916px;
+    background-color: var(--main-color-b);
+    border-radius: 10px;
+    font-size: 20px;
+    font-weight: 700;
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    color: var(--background);
+    align-items: center;
+    justify-content: space-between;
+    padding: 35px;
+}
+
+.Experience .experience-item:hover{
+    background-color: var(--main-color-l);
+}
+
+.Experience .experience-item-son{
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    gap: 35px;
 }
