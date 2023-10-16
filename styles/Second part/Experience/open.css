@@ -1,0 +1,66 @@
+.Experience .experience-item-open{
+    width: 100%;
+    max-width: 1200px;
+    background-color: rgba(68, 71, 79, 0.5);
+    border-radius: 10px;
+    font-size: var(--font-size-small);
+    font-weight: var(--font-weight-big);
+    display: flex;
+    flex-direction: row;
+    color: var(--background);
+    padding: 35px;
+    align-items: center;
+}
+.experience-item-open .content{
+    margin-left: 35px;
+}
+
+.experience-item-open .info{
+    width: 100%;
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+}
+
+.experience-item-open .info .format{
+    display: flex;
+    flex-direction: row;
+    font-size: var(--font-size-small);
+    font-weight: var(--font-weight-big);
+    color: #939AA5;
+    margin-right: 40px;
+    padding-top: 20px;
+}
+
+.experience-item-open .info .format h3{
+    margin-left: 10px;
+    white-space: nowrap;
+}
+
+.experience-item-open .info .link{
+    display: flex;
+    flex-direction: row;
+    padding-top: 20px;
+}
+
+.experience-item-open .info .link a{
+    font-size: var(--font-size-small);
+    font-weight: var(--font-weight-big);
+    color: #939AA5;
+    text-decoration: none;
+    outline: none;
+    margin-left: 10px;
+    white-space: nowrap;
+}
+
+.Experience .content p{
+    text-align: left;
+    margin: 30px 0;
+    font-size: var(--font-size-small);
+    font-weight: var(--font-weight-mid);
+}
+
+.experience-item-open .logo{
+    width: 140px;
+    height: 140px;
+}

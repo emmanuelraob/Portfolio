@@ -3,29 +3,34 @@
     position: relative;
     display: flex;
     flex-direction: column;
-    height: 800px;
+    height: 900px;
+    align-items: center;
+    z-index: 3;
 }
 
 .Experience h2{
     color: var(--background);
-    font-size: 45px;
-    font-weight: 700;
+    font-size: var(--font-size-big); 
+    font-weight: var(--font-weight-big);
     margin-bottom: 90px;
 }
 
 .Experience .container{
-    margin: 0 auto;
+    margin: 0 10%;
+    width: 80%;
+    max-width: 1200px;
     display: flex;
     flex-direction: column;
     gap: 25px;
 }
 
 .Experience .experience-item{
-    width: 916px;
+    width: 100%;
+    max-width: 1200px;
     background-color: var(--main-color-b);
     border-radius: 10px;
-    font-size: 20px;
-    font-weight: 700;
+    font-size: var(--font-size-small);
+    font-weight: var(--font-weight-big);
     display: flex;
     flex-direction: row;
     justify-content: center;

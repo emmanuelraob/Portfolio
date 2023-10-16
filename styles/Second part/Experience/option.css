@@ -1,0 +1,18 @@
+.Experience .descriptions{
+    display: flex;
+    flex-direction: row;
+    gap: 20px;
+}
+
+.Experience .descriptions .description{
+    width:fit-content;
+    padding: calc(var(--font-size-small) - 5px);
+    background-color: var(--main-color-b);
+    border-radius: 50px;
+}
+
+.Experience .descriptions .description h3{
+    font-size: var(--font-size-small);
+    font-weight: var(--font-weight-big);
+    color: rgba(251, 251, 251, 0.5);
+}

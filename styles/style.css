@@ -4,6 +4,12 @@
     --background-b: #010A20;
     --main-color-l: #4689D9;
     --main-color-b: #44474F;
+    --font-size-small: 20px;
+    --font-weight-small: 300;
+    --font-size-mid: 25px;
+    --font-weight-mid: 400;
+    --font-size-big: 45px;
+    --font-weight-big: 700;
     --font: 'Roboto', sans-serif;
 }
 
@@ -21,4 +27,8 @@ body{
 
 html {
     scroll-behavior: smooth;
+}
+
+a:hover, a:focus, a:active {
+    text-decoration: none; 
 }

@@ -2,4 +2,5 @@
     height: 100vh;
     margin-left: 260px;
     background-color:blueviolet;
+    z-index: 3;
 }

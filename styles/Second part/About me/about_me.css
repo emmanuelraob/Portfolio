@@ -4,6 +4,7 @@
     margin-left: calc(250px + 10vh);
     margin-right: calc(10vh-88px);
     justify-content: center;
+    z-index: 3;
 }
 
 .About_me img{
@@ -21,19 +22,19 @@
 
 
 .About_me .Presentation h2{
-    font-size: 45px;
-    font-weight: 700;
+    font-size: var(--font-size-big);
+    font-weight: var(--font-weight-big);
     margin-top: 140px;
     margin-bottom: 40px;
 }
 
 .Presentation p{
-    font-size: 25px;
-    font-weight: 400;
+    font-size: var(--font-size-mid);
+    font-weight: var(--font-weight-mid);
     line-height: 1.36;
 }
 .Presentation b{
-    font-size: 25px;
-    font-weight: 700;
+    font-size: var(--font-size-mid);
+    font-weight: var(--font-weight-big);
 }
 

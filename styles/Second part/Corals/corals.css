@@ -1,0 +1,31 @@
+.corals{
+    position: absolute;
+    z-index: 1;
+    width: 100%;
+    
+}
+
+.corals img{
+    position: absolute;
+    transform: translate3d(0, 0, 0);
+}
+
+.coral1{
+    top: 50vh;
+    left: -70px;
+}
+
+.coral2{
+    top: 80vh;
+    right: -70px;
+}
+
+.coral3{
+    top: 140vh;
+    left: -70px;
+}
+
+.coral4{
+    top: 200vh;
+    right: -70px;
+}
