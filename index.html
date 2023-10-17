@@ -25,6 +25,7 @@
     <link rel="stylesheet" href="/styles/Second part/Experience/option.css">
     <link rel="stylesheet" href="/styles/Second part/Skills/Skills.css">
     <link rel="stylesheet" href="/styles/Second part/Projects/Projects.css">
+    <link rel="stylesheet" href="/styles/Second part/Projects/element.css">
     <link rel="stylesheet" href="/styles/Second part/Contact/contact.css">
 </head>
 <body>
@@ -303,7 +304,126 @@
         </div>
 
         <div class="Projects section" id="Projects">
-            projects
+            <h2>Projects</h2>
+            <div class="filter-menu">
+                <h3>Filtered by:</h3>
+                <button class="btn active" onclick="markbutton(this)" filter-data="All">All</button>
+                <button class="btn" onclick="markbutton(this)" filter-data="Product Design">Product Design</button>
+                <button class="btn" onclick="markbutton(this)" filter-data="Visual Design">Visual Design</button>
+                <button class="btn" onclick="markbutton(this)" filter-data="Programming">Programming</button>
+            </div>
+            <div class="elements">
+                <div class="element active" data-category="Programming">
+                    <img src="/images/elements/projects/project_raytracer.png" alt="image raytracer">
+                    <div>
+                        <h3>Raytracer</h3>
+                        <div class="info">
+                            <p>View project</p>
+                            <div class="small-line"></div>
+                        </div>
+                    </div>
+                </div>
+                <div class="element active" data-category="Programming">
+                    <img src="/images/elements/projects/project_ia.png" alt="image ai">
+                    <div>
+                        <h3>Satellite image recognition</h3>
+                        <div class="info">
+                            <p>View project</p>
+                            <div class="small-line"></div>
+                        </div>
+                    </div>
+                </div>
+                <div class="element active" data-category="Programming">
+                    <img src="/images/elements/projects/project_ant_simulation.png" alt="image ant simulation">
+                    <div>
+                        <h3>Ant colony simulation</h3>
+                        <div class="info">
+                            <p>View project</p>
+                            <div class="small-line"></div>
+                        </div>
+                    </div>
+                </div>
+                <div class="element active" data-category="Programming">
+                    <img src="/images/elements/projects/project_piano.png" alt="image piano">
+                    <div>
+                        <h3>Piano</h3>
+                        <div class="info">
+                            <p>View project</p>
+                            <div class="small-line"></div>
+                        </div>
+                    </div>
+                </div>
+                <div class="element active" data-category="Programming">
+                    <img src="/images/elements/projects/project_numeric_base_conversor.png" alt="image Numeric base converter">
+                    <div>
+                        <h3>Numeric base converter</h3>
+                        <div class="info">
+                            <p>View project</p>
+                            <div class="small-line"></div>
+                        </div>
+                    </div>
+                </div>
+                <div class="element active" data-category="Programming">
+                    <img src="/images/elements/projects/project_qr_code_generator.png" alt="image qr code generator">
+                    <div>
+                        <h3>QR code generator</h3>
+                        <div class="info">
+                            <p>View project</p>
+                            <div class="small-line"></div>
+                        </div>
+                    </div>
+                </div>
+                <div class="element active" data-category="Product Design">
+                    <img src="/images/elements/projects/project_apple_dryer.png" alt="image apple dryer">
+                    <div>
+                        <h3>Apple dryer</h3>
+                        <div class="info">
+                            <p>View project</p>
+                            <div class="small-line"></div>
+                        </div>
+                    </div>
+                </div>
+                <div class="element active" data-category="Product Design">
+                    <img src="/images/elements/projects/project_lamp.png" alt="image lamp">
+                    <div>
+                        <h3>Emotional lamp</h3>
+                        <div class="info">
+                            <p>View project</p>
+                            <div class="small-line"></div>
+                        </div>
+                    </div>
+                </div>
+                <div class="element active" data-category="Product Design">
+                    <img src="/images/elements/projects/project_glove.png" alt="image glove">
+                    <div>
+                        <h3>Gamer glove</h3>
+                        <div class="info">
+                            <p>View project</p>
+                            <div class="small-line"></div>
+                        </div>
+                    </div>
+                </div>
+                <div class="element active" data-category="Visual Design">
+                    <img src="/images/elements/projects/project_rh_interactivo.png" alt="image rh interactivo">
+                    <div>
+                        <h3>RH interactivo</h3>
+                        <div class="info">
+                            <p>View project</p>
+                            <div class="small-line"></div>
+                        </div>
+                    </div>
+                </div>
+                <div class="element active" data-category="Programming">
+                    <img src="/images/elements/projects/project_p2p.png" alt="image p2p">
+                    <div>
+                        <h3>P2P transferer</h3>
+                        <div class="info">
+                            <p>View project</p>
+                            <div class="small-line"></div>
+                        </div>
+                    </div>
+                </div>
+            </div>
         </div>
         <div class="Contact section" id="Contact">
             contact
@@ -328,4 +448,5 @@
 <script src="/scripts/First part/wave_vel.js"></script>
 <script src="/scripts/Menu/menu.js"></script>
 <script src="/scripts/Second part/scroll.js"></script>
+<script src="/scripts/Second part/filter.js"></script>
 </html>

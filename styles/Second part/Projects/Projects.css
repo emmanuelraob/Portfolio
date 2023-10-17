@@ -1,6 +1,57 @@
 .Projects{
-    height: 100vh;
+    height: fit-content;
     margin-left: 260px;
-    background-color:blueviolet;
+    width: 80%;
+    max-width: 1200px;
+    align-self: center;
     z-index: 3;
+}
+.Projects .filter-menu{
+    display: flex;
+    flex-direction: row;
+    width: 100%;
+    margin: 50px 0;
+}
+
+.Projects h2{
+    color: var(--background);
+    font-size: var(--font-size-big);
+    font-weight: var(--font-weight-big);
+}
+
+.Projects .elements{
+    margin-bottom: 30vh;
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    gap: 35px;
+}
+
+.Projects .element {
+    display: none;
+}
+
+.Projects .element.active {
+    display: block;
+
+}
+
+.Projects h3{
+    font-size: var(--font-size-small);
+    font-weight: var(--font-weight-mid);
+    color: rgba(251, 251, 251, 0.5);
+    margin: 20px;
+}
+
+.Projects .btn{
+    border: none;
+    background: none;
+    font-size: var(--font-size-small);
+    font-weight: var(--font-weight-mid);
+    color: rgba(251, 251, 251, 0.5);
+    margin: 20px;
+}
+.Projects .btn.active{
+    font-weight: var(--font-weight-big);
+    color: var(--background);
 }
