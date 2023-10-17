@@ -8,15 +8,18 @@ document.querySelectorAll('.filter-menu button').forEach(function(btn) {
             });
         } else {
             document.querySelectorAll('.Projects .element').forEach(function(element) {
-                element.classList.remove('active');
-            });
-
-            document.querySelectorAll('.Projects .element[data-category="'+filter+'"]').forEach(function(element) {
-                element.classList.add('active');
+                var categories = element.getAttribute('data-category').split(',');
+                
+                if (categories.includes(filter)) {
+                    element.classList.add('active');
+                } else {
+                    element.classList.remove('active');
+                }
             });
         }
     });
 });
+
 
 function markbutton(element){
     let buttons = document.querySelectorAll('.Projects .btn');
