@@ -2,12 +2,12 @@
     position: absolute;
     z-index: 1;
     width: 100%;
-    
 }
 
 .corals img{
     position: absolute;
     transform: translate3d(0, 0, 0);
+    
 }
 
 .coral1{
